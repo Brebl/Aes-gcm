@@ -1,0 +1,10 @@
+--ERROR-- 2020-10-10 21:15:20 decrypt : BCryptDecrypt: NTSTATUS=c000a002
+--ERROR-- 2020-10-10 21:15:20 Error-code : wrong password or file corrupted
+--ERROR-- 2020-10-10 21:46:02 decrypt : BCryptDecrypt: NTSTATUS=c000a002
+--ERROR-- 2020-10-10 21:46:02 Error-code : wrong password or file corrupted
+--ERROR-- 2020-11-01 22:08:23 decrypt : BCryptDecrypt: NTSTATUS=c000a002
+--ERROR-- 2020-11-01 22:08:23 Error-code : wrong password or file corrupted
+--ERROR-- 2020-11-01 22:26:40 decrypt : BCryptDecrypt: NTSTATUS=c000a002
+--ERROR-- 2020-11-01 22:26:40 Error-code : wrong password or file corrupted
+--ERROR-- 2020-11-02 23:08:43 decrypt : BCryptDecrypt: NTSTATUS=c000a002
+--ERROR-- 2020-11-02 23:08:43 Error-code : wrong password or file corrupted
