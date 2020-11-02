@@ -28,8 +28,8 @@ private:
 	static const DWORD		gcmNonceSize = 12;	//96bit
 	std::array<BYTE, gcmNonceSize> nonce{ 0 };	//IV(nonce)
 	std::vector<BYTE>		authTag;			//tag
-	BCRYPT_AUTH_TAG_LENGTHS_STRUCT authTagLengths;	//tagin lisätiedot
-	BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO acmi;	//cryptauksen lisätiedot
+	BCRYPT_AUTH_TAG_LENGTHS_STRUCT authTagLengths;	//tag adds
+	BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO acmi;	//crypt adds
 
 
 	bool createNonce();	//generate IV(nonce)
@@ -47,7 +47,7 @@ private:
 
 public:
 	Crypt();
-	std::string sfy(const NTSTATUS& nts);
+	std::string sfy(const NTSTATUS& nts);	//stringify
 	void printBytes(BYTE const* data, DWORD dataSize);
 	bool encrypt(PBYTE data, DWORD dataSize);	//encrypt inplace
 	bool decrypt(PBYTE data, DWORD dataSize);	//decrypt inplace
